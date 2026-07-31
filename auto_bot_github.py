@@ -11,8 +11,8 @@ from datetime import date, datetime
 # ============================================================
 # CONFIGURATION
 # ============================================================
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN_AD")
+CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID_AD")
 
 DB_FILE = "invest_bot.db"
 
