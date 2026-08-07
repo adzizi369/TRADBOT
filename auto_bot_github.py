@@ -29,9 +29,15 @@ POIDS = {
 }
 
 ETFS = [
-    ("PAEEM.PA", "Amundi PEA Emerging Markets"),
-    ("WPEA.PA", "Amundi PEA World"),
-    ("CMSE.PA", "Amundi PEA S&P 500"),
+    ("PAEEM.PA", "Emerging Markets"),
+    ("WPEA.PA", "World"),
+    ("CMSE.PA", "comodity"),
+    ("PE500.PA", "S&P 500"),
+    ("CACC.PA", "CAC 40"),
+    ("AI.PA", "Air liquide"),
+    ("ASML", "ASML"),
+    ("FP.VI", "Total energie"),
+    
 ]
 
 # ============================================================
