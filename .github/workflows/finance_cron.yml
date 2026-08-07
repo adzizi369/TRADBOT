@@ -38,8 +38,8 @@ jobs:
     # 4. Lance le script en lui passant les Secrets GitHub
     - name: Exécuter le script Python
       env:
-        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        TELEGRAM_BOT_TOKEN_AD: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID_AD: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: python auto_bot_github.py
 
     # 5. Sauvegarde l'état (state.json) dans le repo pour le prochain run
